@@ -1,0 +1,107 @@
+# docker-compose up --build --remove-orphans
+# docker-compose down
+version: "3.5"
+
+services:
+  catchall:
+    image: transport-tv
+    ports:
+      - 8086:8086
+    environment:
+      - APP_NAME=CatchAll
+      - APP_CRONJOB=false
+      - APP_YTCRONJOB=false
+      - APP_NOTIFICATIONDELETECRONJOB=false
+    restart: unless-stopped
+
+  ads:
+    image: transport-tv
+    ports:
+      - 8087:8086
+    environment:
+      - APP_NAME=Ads
+      - APP_CRONJOB=false
+      - APP_YTCRONJOB=false
+      - APP_NOTIFICATIONDELETECRONJOB=false
+    restart: unless-stopped
+
+  chatmaster:
+    image: transport-tv
+    ports:
+      - 8088:8086
+    environment:
+      - APP_NAME=ChatMaster
+      - APP_CRONJOB=false
+      - APP_YTCRONJOB=false
+      - APP_NOTIFICATIONDELETECRONJOB=false
+    restart: unless-stopped
+
+  common:
+    image: transport-tv
+    ports:
+      - 8089:8086
+    environment:
+      - APP_NAME=Common
+      - APP_CRONJOB=false
+      - APP_YTCRONJOB=false
+      - APP_NOTIFICATIONDELETECRONJOB=false
+    restart: unless-stopped
+    volumes:
+      - ./public:/home/node/app/public
+      - ./public:/home/node/app/dist/public
+
+  mainvideo:
+    image: transport-tv
+    ports:
+      - 8090:8086
+    environment:
+      - APP_NAME=MainVideo
+      - APP_CRONJOB=false
+      - APP_YTCRONJOB=false
+      - APP_NOTIFICATIONDELETECRONJOB=false
+    restart: unless-stopped
+
+  user:
+    image: transport-tv
+    ports:
+      - 8091:8086
+    environment:
+      - APP_NAME=User
+      - APP_CRONJOB=false
+      - APP_YTCRONJOB=false
+      - APP_NOTIFICATIONDELETECRONJOB=false
+    restart: unless-stopped
+
+  video:
+    image: transport-tv
+    ports:
+      - 8092:8086
+    environment:
+      - APP_NAME=Video
+      - APP_CRONJOB=false
+      - APP_YTCRONJOB=false
+      - APP_NOTIFICATIONDELETECRONJOB=false
+    restart: unless-stopped
+
+  sendnotification:
+    image: transport-tv
+    ports:
+      - 8093:8086
+    environment:
+      - APP_NAME=SndNtfn
+      - APP_CRONJOB=false
+      - APP_YTCRONJOB=false
+      - APP_NOTIFICATIONDELETECRONJOB=false
+    restart: unless-stopped
+    volumes:
+      - ./public:/home/node/app/public
+      - ./public:/home/node/app/dist/public
+
+  cron:
+    image: transport-tv
+    environment:
+      - APP_NAME=Etc
+      - APP_CRONJOB=true
+      - APP_YTCRONJOB=true
+      - APP_NOTIFICATIONDELETECRONJOB=true
+    restart: unless-stopped

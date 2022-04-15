@@ -1,0 +1,22 @@
+# node
+.env
+.history
+dist
+frontend/node_modules
+node_modules
+npm-debug.log
+package-lock.json
+pnpm-lock.yaml
+public
+
+# git
+.git
+.gitignore
+
+# ide
+.vscode
+
+# Docker
+.dokerignore
+Dockerfile*
+docker-compose*

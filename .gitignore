@@ -1,0 +1,7 @@
+# Backend Ignore Files
+/node_modules
+/npm-debug.log
+/.env
+/.history
+/frontend/node_modules
+/config

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T15:31:47.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GiOBKlrUzYMlajv1vciK" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-17T15:35:55.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-LuGmIDeW7HzJiGf9SbQ" version="20.5.3" type="github">
   <diagram id="AGtdn2BZx0UyPENdEEa0" name="Page-1">
-    <mxGraphModel dx="868" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="900" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,10 @@
         <mxCell id="Kow95EciukWXHTNGfs2W-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:Arial;font-size:11.0000pt;&quot; dir=&quot;LTR&quot;&gt;begin Amlodipine 2.5mg daily&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kow95EciukWXHTNGfs2W-4" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:Arial;font-size:11.0000pt;&quot; dir=&quot;LTR&quot;&gt;Increase medicine for 1 week (Amlodipine 2.5mg daily) &lt;font color=&quot;#ff0000&quot;&gt;?&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="fORx0rIVDQIyARDhs9Xb-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kow95EciukWXHTNGfs2W-4" target="fORx0rIVDQIyARDhs9Xb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kow95EciukWXHTNGfs2W-4" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:Arial;font-size:11.0000pt;&quot; dir=&quot;LTR&quot;&gt;Increase medicine for 1 week (Amlodipine 5 mg daily) &lt;font color=&quot;#ff0000&quot;&gt;?&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="290" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Kow95EciukWXHTNGfs2W-6" value="if weeks average BP&lt;br&gt;&amp;nbsp;is not at goal &amp;amp; &lt;br&gt;no side effects" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -35,8 +38,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kow95EciukWXHTNGfs2W-7" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:Arial;font-size:11.0000pt;&quot; dir=&quot;LTR&quot;&gt;reduce dose for 1 week &lt;font color=&quot;#ff0000&quot;&gt;?&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="305" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="Kow95EciukWXHTNGfs2W-7" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Start Losartan if 2.5 mg is prescribed/if 5 mg is prescribed then reduce to 2.5 mg+Losartan&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="292.5" y="120" width="145" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Kow95EciukWXHTNGfs2W-9" value="if side effects" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="210" y="150" width="90" height="30" as="geometry" />
@@ -48,11 +51,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kow95EciukWXHTNGfs2W-10" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;stop&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Arial; background-color: initial;&quot;&gt;Amlodipine. Start Losartan and titrate as before &lt;font color=&quot;#ff0000&quot;&gt;?&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Kow95EciukWXHTNGfs2W-10" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Arial; background-color: initial;&quot;&gt;Stop Losartan and start Lisinopril 5mg&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="287.5" y="290" width="155" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Kow95EciukWXHTNGfs2W-12" value="if side effects&lt;br&gt;&amp;nbsp;not gone" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="360" y="230" width="90" height="40" as="geometry" />
+          <mxGeometry x="360" y="240" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Kow95EciukWXHTNGfs2W-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" parent="1" source="Kow95EciukWXHTNGfs2W-13" target="Kow95EciukWXHTNGfs2W-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -73,7 +76,7 @@
           <mxGeometry x="580" y="235" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Kow95EciukWXHTNGfs2W-19" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GOAL&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 10px; font-weight: 400;&quot;&gt;diastolic BP less than 80 and systolic BP less than 140&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=#D4E1F5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="330" y="-60" width="190" height="100" as="geometry" />
+          <mxGeometry x="390" y="-10" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Kow95EciukWXHTNGfs2W-20" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;decrease dose for 1 week&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="850" y="235" width="120" height="50" as="geometry" />
@@ -86,6 +89,27 @@
         </mxCell>
         <mxCell id="Kow95EciukWXHTNGfs2W-28" value="&lt;font color=&quot;#000000&quot;&gt;If BP still not controlled&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="680" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fORx0rIVDQIyARDhs9Xb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fORx0rIVDQIyARDhs9Xb-1" target="fORx0rIVDQIyARDhs9Xb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fORx0rIVDQIyARDhs9Xb-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Add losartan with amlodipine&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fORx0rIVDQIyARDhs9Xb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fORx0rIVDQIyARDhs9Xb-3" target="fORx0rIVDQIyARDhs9Xb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fORx0rIVDQIyARDhs9Xb-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Increase losartan dose&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fORx0rIVDQIyARDhs9Xb-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fORx0rIVDQIyARDhs9Xb-5" target="fORx0rIVDQIyARDhs9Xb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fORx0rIVDQIyARDhs9Xb-5" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Add lisinopril&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="770" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fORx0rIVDQIyARDhs9Xb-7" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Increase lisinopril week by week 5 mg&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="930" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
